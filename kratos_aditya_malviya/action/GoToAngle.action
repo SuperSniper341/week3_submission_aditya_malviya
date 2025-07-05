@@ -1,0 +1,8 @@
+# Goal
+int64 target_angle
+---
+# Result
+string status
+---
+# Feedback
+int64 cur_angle
