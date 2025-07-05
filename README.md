@@ -52,16 +52,16 @@ Also publishes:
 
 ## Bonus Question
 
-**File:** `kratos_aditya_malviya/action/GoToAngle.action`  
+**File 1:** `kratos_aditya_malviya/action/GoToAngle.action`  
 **Description:**  
 Defines a **custom action** format for the action server.
 
-**File:** `kratos_aditya_malviya/scripts/bonus_server.py`  
+**File 2:** `kratos_aditya_malviya/scripts/bonus_server.py`  
 **Description:**  
 Moves the robotic arm by incrementing the arm's position by **1° per second** until it reaches the target angle.  
 - Sends **feedback** to the client.  
 - Notifies the client when the goal is **successfully achieved**.
 
-**File:** `kratos_aditya_malviya/scripts/bonus_client.py`  
+**File 3:** `kratos_aditya_malviya/scripts/bonus_client.py`  
 **Description:**  
 Sends a **target angle** to the action server.
